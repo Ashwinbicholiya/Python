@@ -18,4 +18,7 @@ for e in arr:
         break
     k+=1
 
+#we can also use a function to find the index of the value
+print(arr.index(x))
+
 
