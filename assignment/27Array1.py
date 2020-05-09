@@ -3,7 +3,6 @@
 from array import *
 
 arr=array('i',[])
-arr2=array('i', [])
 n=int(input('Enter the lenth of array : '))
 
 for i in range(n):
