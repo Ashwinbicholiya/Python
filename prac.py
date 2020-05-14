@@ -9,7 +9,6 @@ B=array([
     [9,10],
     [11,12]
 ])
-
 C=zeros(4, int).reshape(2,2)
 print("Array A")
 for i in range(2):
