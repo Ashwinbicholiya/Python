@@ -4,9 +4,10 @@
 
 class student:
     school="ashwin"
-#for define static method we use @staticmehod  the define a method which has no variable of class and instace 
+#for define static method we use @staticmehod  the define a method 
+# which has no variable of class and instace 
     @staticmethod
     def info():
-        print('Hello I am Ashwin ')
+        print('Hello I am Ashwin')
 #for calling
 student.info()
