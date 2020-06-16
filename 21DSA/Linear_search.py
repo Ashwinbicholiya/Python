@@ -13,4 +13,3 @@ if Search(list, n):
     print('Found at ',pos+1)
 else:
     print('Not Found')
-
