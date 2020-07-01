@@ -3,7 +3,7 @@ x=int(input('Enter a number : '))
 if x==2 :
     print('Prime number')
 elif x>1: 
-    for i in range(2,20):
+    for i in range(2,x):
         if x%2==0:
             print(x, 'Not a prime number ')
             break
