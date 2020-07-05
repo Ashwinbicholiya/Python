@@ -1,21 +1,9 @@
 import sys
-sys.stdout = open('output.txt', 'w')
-sys.stdin = open('input.txt', 'r')
+sys.stdout = open('hackerrank/output.txt', 'w')
+sys.stdin = open('hackerrank/input.txt', 'r')
 
-s = input()
-vowels = 'AEIOU'
-a,b = 0,0
-
-for i in range(len(s)):
-    if s[i] in vowels:
-        a += len(s) -i
-    else:
-        b += len(s) - i
-
-if a>b:
-    print('Kevin', a)
-elif a<b:
-    print('Stuart', b)
-else:
-    print('Draw')
+S, N = input(), int(input()) 
+for part in zip(*[iter(S)] * N):
+    d = dict()
+    print(''.join([ d.setdefault(c, c) for c in part if c not in d ]))
     
