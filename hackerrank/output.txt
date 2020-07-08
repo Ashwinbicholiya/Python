@@ -1,3 +1,12 @@
-AB
+AC
+AH
+AK
 CA
-AD
+CH
+CK
+HA
+HC
+HK
+KA
+KC
+KH
