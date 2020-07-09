@@ -5,7 +5,7 @@ def anagram(s1,s2):
     list1 = list(s1)
     list2 = list(s2)
 
-    list1.sort()
+    list1.sort()  # n logn
     list2.sort()
 
     for i in range(n):
