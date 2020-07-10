@@ -6,7 +6,7 @@ def checker(StringSymbol):
     index = 0
     while index < len(StringSymbol) and Balanced:
         symbol = StringSymbol[index]
-        if symbol == '(':
+        if symbol in '(':
             s.push(symbol)
         else:
             if s.isEmpty():
