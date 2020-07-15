@@ -12,4 +12,4 @@ def divides(decimalnumber):
         bin_string = bin_string + str(rem_stack.pop())  
     return bin_string      
 
-print('233 is ',divides(233))
+print('7 is ',divides(7))

@@ -15,6 +15,6 @@ def baseconverter(decNumber,base):
     
     return newString
 
-print('Binary: ',baseconverter(26,2))
+print('Binary: ',baseconverter(24,2))
 print('octal : ',baseconverter(26,8))
 print('hex   : ',baseconverter(26,16))
