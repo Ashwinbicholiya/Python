@@ -1,6 +1,7 @@
 #input1 2 40 
 #output1 13158006689
-#output 30 70 2027041
+#input2 30 70 
+#output2 2027041
 import sys
 sys.stdout = open('TcsCodevita/output.txt', 'w')
 sys.stdin = open('TcsCodevita/input.txt', 'r')
